@@ -1,0 +1,85 @@
+
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;   
+    font-size:16px;
+}
+
+#terminal {
+
+    top: 80px;
+    bottom: 96px;
+  
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    position: fixed;
+}
+
+#terminalHeader {
+    height: 28px;
+    background-color: #ddd;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+  right: 0px;
+}
+
+.button1 {
+    margin-left: 20px;
+    background-color: #ff6464;
+    transition: 0.2s ease-in-out;
+} .button1:hover { background-color: #860000;}
+
+.button2 {
+    background-color: gray;
+    transition: 0.2s ease-in-out;
+} .button2:hover {background-color: white ;}
+
+.button3 {
+    background-color: gray;
+    transition: 0.2s ease-in-out;
+} .button3:hover {background-color: white;}
+
+
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 480px;
+    overflow-y: auto;
+    border: solid 5px #ddd;
+}
+
+#BodyContent {
+    float: left;
+}
+
+input {
+    width: 30%;
+    background-color: #242629;
+    border-width: 0;
+    color: #ddd;
+    font-family: 'Roboto Mono', monospace;   
+  font-size:16px;
+    font-weight: 700;
+}
+input:focus {
+    outline: none;
+}
+
+a {
+    color: #0dd;
+    transition: 0.2s ease-in-out;
+}
+a:hover {
+    color: teal;
+}
