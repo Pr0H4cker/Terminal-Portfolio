@@ -1,9 +1,14 @@
 
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url(/CascadiaCode.ttf);
+  display: swap;
+}
 
 body {
     background-color: black;
     color: #fff;
-    font-family: 'Roboto Mono', monospace;   
+  font-family: 'CascadiaCode', monospace;
     font-size:16px;
 }
 
@@ -15,8 +20,7 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 900px;
+    width: 99%;
     position: fixed;
 }
 
@@ -38,25 +42,69 @@ body {
     margin-left: 20px;
     background-color: #ff6464;
     transition: 0.2s ease-in-out;
-} .button1:hover { background-color: #860000;}
+} .button1:hover {
+  background-color: #860000;
+}
 
 .button2 {
     background-color: gray;
     transition: 0.2s ease-in-out;
-} .button2:hover {background-color: white ;}
+} .button2:hover {
+  background-color: white ;
+}
+
 
 .button3 {
     background-color: gray;
     transition: 0.2s ease-in-out;
-} .button3:hover {background-color: white;}
+} .button3:hover {
+  background-color: white;
+}
 
+@media only screen and (min-width:768px){
 
 #terminalBody {
     padding: 10px 25px 0 10px;
     background-color: #242629;
-    height: 480px;
+    height: 600px;
     overflow-y: auto;
-    border: solid 5px #ddd;
+  
+}
+}
+
+@media only screen and (min-width:440px){
+
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 400px;
+    overflow-y: auto;
+  
+}
+}
+
+/* Tablet */
+
+@media only screen and (max-width:600px){
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 360px;
+    overflow-y: auto;
+  
+}
+
+}
+/* Iphone */
+@media only screen and (max-width:414px){
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 800px;
+    overflow-y: auto;
+  
+}
+
 }
 
 #BodyContent {
@@ -68,7 +116,7 @@ input {
     background-color: #242629;
     border-width: 0;
     color: #ddd;
-    font-family: 'Roboto Mono', monospace;   
+  font-family: 'CascadiaCode', monospace;
   font-size:16px;
     font-weight: 700;
 }
