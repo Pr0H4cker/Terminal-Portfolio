@@ -19,9 +19,9 @@ var data = {
     {name: 'Project1', value: '#'},
   ],
   socials: [
-    {name: 'LinkedIn', value: 'https://linkedin/in/ahsankhan26'},
-    {name: 'GitHub', value: 'https://github.com/ahsankhan26'},
-    {name: 'Instagram', value: 'https://instagram/ahsankhan26'},
-    {name: 'Website', value: 'https://ahsankhan.me'}
+    {name: 'LinkedIn', value: '#'},
+    {name: 'GitHub', value: '#'},
+    {name: 'Instagram', value: '#'},
+    {name: 'Website', value: '#'}
   ]
 }
