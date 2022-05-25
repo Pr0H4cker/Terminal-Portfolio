@@ -57,7 +57,7 @@ function checkCommand(inputCommand){
         else if(command === 'help'){ commandHelp();}
         else if(commandList.includes(command)){ executeCommand(command);}
         else{
-            terminalBody.innerHTML +=  '<br>' + inputCommand + ' is not recognized as a command, Try \"help\"<br>';
+            terminalBody.innerHTML +=  '<br>' + inputCommand + ' is not a command. Please try another command! Maybe "help"<br>';
         }
     }
     else {
