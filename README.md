@@ -3,7 +3,7 @@
 
 ## By Carson Sernick 
 #### (Pr0H4cker) on github
-#### (SkySkript) on repl
+#### (Carson-Sernick) on repl
 
 The reason why you should use this instead of other templates, is because it is unique. Maybe you arent a website type of coder, but you are amazing with javascript and python. With this, you can add a twist to that! It looks just like a console, and it works like a console!
 
